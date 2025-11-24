@@ -479,6 +479,7 @@ function init_all(){
   add_two_in_html(config_list3)
   add_two_in_html(config_list4)
   add_one_in_html(config_one_list)
+  // add_ad_in_html()
   init_input_ele()
   var GCT = get_curr_tabId;
   var CU = function(u){ chrome.tabs.create({ url: chrome.runtime.getURL(u) }); }
