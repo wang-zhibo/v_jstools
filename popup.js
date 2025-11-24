@@ -294,18 +294,18 @@ function add_tg_in_html(cls){
     $('config_box').appendChild(style_checkbox(cls[i][1], cls[i][0], cls[i][2]))
   }
 }
-function add_ad_in_html(){
-  var div = document.createElement('div')
-  div.innerHTML = `
-    <div style="margin-top: 5px;align-items: center;padding: 5px 15px;margin-bottom: 0px;border: 1px solid #e1e5eb;border-radius: 8px;transition: all 0.3s ease;background: white;">
-      <div>扫码并备注 “jstools” 申请加入工具交流群</div>
-      <div style="text-align: center">
-        <img src="./tools/common/a.png" alt="" style="width: 120px; height: 120px">
-      </div>
-    </div>
-  `
-  $('config_box').appendChild(div)
-}
+// function add_ad_in_html(){
+//   var div = document.createElement('div')
+//   div.innerHTML = `
+//     <div style="margin-top: 5px;align-items: center;padding: 5px 15px;margin-bottom: 0px;border: 1px solid #e1e5eb;border-radius: 8px;transition: all 0.3s ease;background: white;">
+//       <div>扫码并备注 “jstools” 申请加入工具交流群</div>
+//       <div style="text-align: center">
+//         <img src="./tools/common/a.png" alt="" style="width: 120px; height: 120px">
+//       </div>
+//     </div>
+//   `
+//   $('config_box').appendChild(div)
+// }
 
 function add_inject_short_config(){
   var div = document.createElement('div')
